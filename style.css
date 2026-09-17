@@ -158,16 +158,18 @@ background-position: center;
       font-weight: 400;
     }
     .hero-content {
-      animation: heroEntrance 1.2s ease-out;
+      animation: heroEntrance 1.8s cubic-bezier(0.22, 1, 0.36, 1) both;
       }
     @keframes heroEntrance {
       0% {
           opacity: 0;
-          transform: translateY(35px);
+          transform: translateY(70px);
+          filter: blur(8px);
       }
       100% {
           opacity: 1;
           transform: translateY(0);
+          filter: blur(0);
       }
 
 }
