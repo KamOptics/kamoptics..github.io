@@ -158,7 +158,6 @@ background-position: center;
       font-weight: 400;
     }
     .hero-content {
-      opacity: 0;
       animation: heroFadeUp 1s ease forwards;
       }
     @keframes heroFadeUp {
