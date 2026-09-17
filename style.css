@@ -70,7 +70,7 @@ background-position: center;
   }
   .hero p {
     animation: fadeUp 1s ease forwards;
-    animation-delay: 0.35s;
+    animation-delay: 0.30s;
   }
 .hero p {
   margin-top: 25px;
