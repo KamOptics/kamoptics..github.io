@@ -158,14 +158,14 @@ background-position: center;
       font-weight: 400;
     }
     .hero-content {
-      animation: heroFadeUp 1s ease forwards;
+      animation: heroEntrance 1.2s ease-out;
       }
-    @keframes heroFadeUp {
-      from {
+    @keframes heroEntrance {
+      0% {
           opacity: 0;
-          transform: translateY(30px);
+          transform: translateY(35px);
       }
-      to {
+      100% {
           opacity: 1;
           transform: translateY(0);
       }
