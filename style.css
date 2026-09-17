@@ -157,17 +157,29 @@ background-position: center;
       font-size: 30px;
       font-weight: 400;
     }
-    .hero-content {
-      animation: heroEntrance 1.4s ease-out both;
-      }
-    @keframes heroEntrance {
-      from {
-          opacity: 0;
-          transform: translateY(30px);
-      }
-      to {
-          opacity: 1;
-          transform: translateY(0);
-      }
-
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero-eyebrow {
+  opacity: 1;
+  animation: fadeUp 0.9s ease-out 0.1s forwards;
+}
+.hero h1 {
+  opacity: 0;
+  animation: fadeUp 0.9s ease-out 0.25s forwards;
+}
+.hero-description {
+  opacity: 0;
+  animation: fadeUp 0.9s ease-out 0.4s forwards;
+}
+.hero-button {
+  opacity: 0;
+  animation: fadeUp 0.9s ease-out 0.55s forwards;
 }
